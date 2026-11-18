@@ -4,7 +4,8 @@ color 1f
 echo ██████████████████████████████████████████
 echo █       Wellcome to WebTerminal!         █
 echo ██████████████████████████████████████████
-echo Do you want to install WebTerminal? Press any key to install
+echo Do you want to install WebTerminal?
+echo Press any key to install.
 pause >nul
 cls
 echo ██████████████████████████████████████████
