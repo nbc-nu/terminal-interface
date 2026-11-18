@@ -1,5 +1,6 @@
 @echo off
-color
+chcp 65001 >nul
+color 1f
 echo ██████████████████████████████████████████
 echo █       Wellcome to WebTerminal!         █
 echo ██████████████████████████████████████████
