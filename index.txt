@@ -1,0 +1,76 @@
+@echo off
+color
+echo ██████████████████████████████████████████
+echo █       Wellcome to WebTerminal!         █
+echo ██████████████████████████████████████████
+echo Do you want to install WebTerminal? Press any key to install
+pause >nul
+cls
+echo ██████████████████████████████████████████
+echo █              Setup.int                 █
+echo ██████████████████████████████████████████
+echo installing...
+echo [#-------------------------------------]
+timeout /t 3 /nobreak >nul
+cls
+echo ██████████████████████████████████████████
+echo █              Setup.int                 █
+echo ██████████████████████████████████████████
+echo installing...
+echo [##------------------------------------]
+timeout /t 3 /nobreak >nul
+cls
+echo ██████████████████████████████████████████
+echo █              Setup.int                 █
+echo ██████████████████████████████████████████
+echo installing...
+echo [###-----------------------------------]
+timeout /t 3 /nobreak >nul
+cls
+echo ██████████████████████████████████████████
+echo █              Setup.int                 █
+echo ██████████████████████████████████████████
+echo installing...
+echo [########------------------------------]
+timeout /t 3 /nobreak >nul
+cls
+echo ██████████████████████████████████████████
+echo █              Setup.int                 █
+echo ██████████████████████████████████████████
+echo installing...
+echo [##############------------------------]
+timeout /t 3 /nobreak >nul
+cls
+echo ██████████████████████████████████████████
+echo █              Setup.int                 █
+echo ██████████████████████████████████████████
+echo installing...
+echo [#########################-------------]
+timeout /t 3 /nobreak >nul
+cls
+echo ██████████████████████████████████████████
+echo █              Setup.int                 █
+echo ██████████████████████████████████████████
+echo installing...
+echo [##################################---]
+timeout /t 3 /nobreak >nul
+cls
+echo ██████████████████████████████████████████
+echo █              Setup.int                 █
+echo ██████████████████████████████████████████
+echo wait...
+echo [-------------------------------------]
+timeout /t 10 /nobreak >nul
+color 9f
+cls
+echo ██████████████████████████████████████████
+echo █                  Home                  █
+echo ██████████████████████████████████████████
+set /p url=URL:
+cls
+echo ██████████████████████████████████████████
+echo █                  Web                   █
+echo ██████████████████████████████████████████
+curl -L %url%
+pause >nul
+exit
